@@ -3,8 +3,31 @@
 
 <div class="row">
     <div class="col-md-12">
-        <form class="card card-ms"></form>
+        <form class="card card-sm">
+            <div class="card-body row no-gutters align-items center">
+                <div class="col">
+                    <input type="search" name= "item-name" class= "form-control form-control-borderless">
+                </div>
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-success">Recherche</button>
+                </div>
+            </div>
+        </form>
     </div>
 </div>
-
+<div class="row">
+    <!--{% for product in product_objet %}-->
+    <div class="col-md-3">
+        <div class="card">
+            <img src="https://freerangestock.com/sample/129788/young-male-fashion-model-.jpg" alt="" class="card-ing-top">
+            <div class="card-body">
+                <div class="card-title">Titre</div>
+                <div class="card-text">prix</div>
+                <button class="btn btn-warning">Voire</button>
+                <button class="btn btn-success">Ajouter</button>
+            </div>
+        </div>
+    </div>
+   <!-- {% endfor %}-->
+</div>
 {% endblock %}
